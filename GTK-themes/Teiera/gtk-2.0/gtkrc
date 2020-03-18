@@ -1,0 +1,24 @@
+# Based Adwaita
+
+
+# Text/base
+gtk-color-scheme = "text_color:#101010\nbase_color:#ffffff"
+# Foreground/background
+gtk-color-scheme = "fg_color:#101010\nbg_color:#d1ccc4"
+# Selected foreground/background
+gtk-color-scheme = "selected_fg_color:#ffffff\nselected_bg_color:#b49372"
+# Titlebar foreground/background
+gtk-color-scheme = "titlebar_fg_color:#ffffff\ntitlebar_bg_color:#464139"
+# Tooltips foreground/background
+gtk-color-scheme = "tooltip_fg_color:#ffffff\ntooltip_bg_color:#616161"
+# Links
+gtk-color-scheme = "link_color:#b49372\nvisited_link_color:#E040FB"
+
+# Set GTK settings
+gtk-auto-mnemonics              = 1
+gtk-primary-button-warps-slider = 1
+
+# And hand over the control to the theme files
+include "main.rc"
+include "apps.rc"
+include "hacks.rc"

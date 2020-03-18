@@ -1,0 +1,93 @@
+!! Larry Cow openbox theme
+!! part of Larry Cow gtk theme
+!! @2017 - 2019 ilnanny < ilnannyhack at gmail dot com >
+!! Inspired from Xfce4 themes and Gentoo colors
+!! GPLV2 +
+
+!! menu background
+menu.items.bg: flat
+menu.items.bg.color: #55586B
+menu.overlap.x: -10
+
+!! menu text
+menu.items.text.color: #DBDCE2
+menu.items.justify: left
+menu.items.disabled.text.color: #7E85AA
+
+!! menu separator
+menu.separator.padding.height: 4
+menu.separator.color: #727796
+
+!! menu border
+menu.border.width: 4
+menu.border.color: #55586B
+
+!! menu headers
+menu.title.bg: flat
+menu.title.bg.color: #727796
+menu.title.text.color: #E5E7EF
+menu.title.text.justify: center
+
+!! selected menu item
+menu.items.active.bg: flat
+menu.items.active.bg.color: #94A2E5
+menu.items.active.text.color: #E5E7EF
+
+!! titlebar
+window.active.title.bg: flat
+window.active.title.bg.color: #ADB3D0
+window.inactive.title.bg: flat
+window.inactive.title.bg.color: #484E6B
+
+!! titlebar text
+window.label.text.justify: center
+window.active.label.bg: parentrelative
+window.active.label.text.color: #55586B
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #484E6B
+
+!! window buttons
+window.*.button.*.bg: parentrelative
+window.active.button.*.hover.bg: flat
+window.inactive.button.*.hover.bg: parentrelative
+window.*.button.*.pressed.bg: flat
+window.active.button.*.hover.bg.color: #ADB3D0
+window.active.button.*.hover.image.color: #DBDCE2
+window.active.button.*.pressed.bg.color: #ADB3D0
+window.active.button.*.image.color: #ADB3D0
+window.active.button.disabled.image.color: #DBDCE2
+window.inactive.button.*.image.color: #484E6B
+window.inactive.button.disabled.image.color: #DBDCE2
+
+!! borders
+window.active.border.color: #ADB3D0
+window.inactive.border.color: #ADB3D0
+padding.width: 6
+padding.height: 6
+window.client.padding.width: 0
+window.client.padding.height: 0
+border.width: 0
+window.handle.width: 2
+window.active.client.color:  #55586B
+window.inactive.client.color:  #55586B
+window.active.handle.bg: flat
+window.active.handle.bg.color: #55586B
+window.inactive.handle.bg: flat
+window.inactive.handle.bg.color: #55586B
+window.active.grip.bg: flat
+window.active.grip.bg.color: #55586B
+window.inactive.grip.bg: flat
+window.inactive.grip.bg.color: #55586B
+
+!! on-screen displays
+osd.border.width: 1
+osd.border.color: #55586B
+osd.label.text.color: #DBDCE2
+osd.bg: flat solid
+osd.bg.color: #55586B
+osd.label.bg: flat solid
+osd.label.bg.color: #55586B
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #7B8CD4
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #7E85AA

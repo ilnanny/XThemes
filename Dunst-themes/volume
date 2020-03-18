@@ -1,0 +1,34 @@
+#!/bin/bash
+#================================================
+#================================================
+#   O.S.      : Gnu Linux                       =
+#   Author    : Cristian Pozzessere   = ilnanny =
+#   D.A.Page  : http://ilnanny.deviantart.com   =
+#   Github    : https://github.com/ilnanny      =
+#================================================
+# change   volume                               =
+#================================================
+#Imposta l'utente Root
+#set -o errexit
+#[[ $(whoami) == 'root' ]] || exec sudo su -c $0 root
+# ID messaggio arbitrario ma unico
+ msgId="991049"
+
+ # Cambia il volume usando alsa (potrebbe differire se usi pulseaudio)
+ amixer -c 0 set Master "$@" > /dev/null
+
+ # Interrogatore di query per il volume corrente e se l'audio è disattivato o meno
+ volume="$(amixer -c 0 get Master | tail -1 | awk '{print $4}' | sed 's/[^0-9]*//g')"
+ mute="$(amixer -c 0 get Master | tail -1 | awk '{print $6}' | sed 's/[^a-z]*//g')"
+ if [[ $volume == 0 || "$mute" == "off" ]]; then
+     # Show the sound muted notification
+     dunstify -a "changeVolume" -u low -i audio-volume-muted -r "$msgId" "Volume muted"
+ else
+     # Mostra la notifica del volume
+     dunstify -a "changeVolume" -u low -i audio-volume-high -r "$msgId" \
+     "Volume: ${volume}%" "$(getProgressString 10 "<b> </b>" " " $volume)"
+ fi
+
+ # Riproduci il volume del suono modificato
+ canberra-gtk-play -i audio-volume-change -d "changeVolume"
+

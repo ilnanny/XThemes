@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Larry-Dark
+Comment=Material Design whit classic color
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Larry-Dark
+IconTheme=Lila_HD
+CursorTheme=Lila_HD-cursor
+CursorSize=24

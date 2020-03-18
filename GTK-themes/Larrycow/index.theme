@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=LarryCow
+Comment=Larry the Cow says ...huum this is my gtk theme.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=LarryCow
+GtkTheme=LarryCow
+IconTheme=LarryCow
+MetacityTheme=LarryCow

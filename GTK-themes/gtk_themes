@@ -1,0 +1,31 @@
+#!/bin/bash
+#================================================
+#================================================
+#   O.S.      : Gnu Linux                       =
+#   Author    : Cristian Pozzessere   = ilnanny =
+#   D.A.Page  : http://ilnanny.deviantart.com   =
+#   Github    : https://github.com/ilnanny      =
+#================================================
+#   Project:    GTK Themes                      =
+#================================================
+set -o errexit
+[[ $(whoami) == 'root' ]] || exec sudo su -c $0 root
+
+echo " Copio i themi gtk nella cartella /usr/share/themes"
+
+cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Celedark /usr/share/themes/
+cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Classico /usr/share/themes/
+cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Crynge /usr/share/themes/
+cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Grigio /usr/share/themes/
+cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Larry-Dark /usr/share/themes/
+cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Larrycow /usr/share/themes/
+cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Lila-Gtk /usr/share/themes/
+#cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Mybrown /usr/share/themes/
+cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Newclear /usr/share/themes/
+#cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Nocciola /usr/share/themes/
+#cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Stonex /usr/share/themes/
+#cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Teiera /usr/share/themes/
+cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Nokto-Eta-remix/ /usr/share/themes/
+echo " Temi copiati ,puoi chiudere il terminale "
+
+exit 0

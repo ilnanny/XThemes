@@ -1,0 +1,5 @@
+# Per caricare la sessione all'avvio utilizzare :
+
+# sleep 1; polybar-session &
+
+~/.config/polybar/config openbox-bar

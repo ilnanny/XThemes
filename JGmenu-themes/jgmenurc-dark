@@ -1,0 +1,58 @@
+# jgmenurc
+
+stay_alive           = 1
+csv_cmd              = pmenu
+tint2_look           = 1
+at_pointer           = 0
+terminal_exec        = xterm
+terminal_args        = -e
+
+
+menu_margin_x        = 15
+menu_margin_y        = 30
+menu_width           = 200
+menu_padding_top     = 10
+menu_padding_right   = 2
+menu_padding_bottom  = 5
+menu_padding_left    = 2
+menu_radius          = 0
+menu_border          = 1
+menu_halign          = left
+menu_valign          = top
+
+sub_spacing          = 5
+sub_hover_action     = 1
+
+item_margin_y        = 5
+item_height          = 30
+item_padding_x       = 8
+item_radius          = 0
+item_border          = 0
+
+
+sep_height           =
+font                 = Decker : 13px
+color_font           = #FFFFFF
+icon_size            = 24
+
+
+icon_theme           = Lila_HD
+
+color_menu_bg        = #474747
+color_menu_fg        = #D2D2D2
+
+color_menu_border    = #474747
+
+color_norm_bg        = #474747
+color_norm_fg        = #D2D2D2
+
+color_sel_bg         = #768199
+color_sel_fg         = #D2D2D2
+color_sel_border     = #474747
+
+color_sep_fg         = #474747
+
+
+#______________________________________
+
+csv_name_format     = %n (%g

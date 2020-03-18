@@ -1,0 +1,15 @@
+#!/bin/bash
+#================================================
+#   O.S.      : Gnu Linux                       =
+#   Author    : Cristian Pozzessere < ilnanny > =
+#   D.A.Page  : http://ilnanny.deviantart.com   =
+#   Github    : https://github.com/ilnanny      =
+#================================================
+git pull
+git commit -m "Update"
+git push -u origin Conky
+
+echo "=========   Repository Aggiornato    ========="
+
+
+

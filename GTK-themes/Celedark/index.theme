@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Celedark
+Comment=A flat theme with transparent elements
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Celedark
+MetacityTheme=Celedark
+IconTheme=gnome
+CursorTheme=Lila_HD-cursor
+ButtonLayout=menu:minimize,maximize,close

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Grigio
+Comment=Classic Color for Modern Theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=Grigio
+GtkTheme=Grigio
+IconTheme=Adwaita
+MetacityTheme=Grigio

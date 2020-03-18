@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Nokto-Eta-remix
+Comment=An adaptive Gtk+ theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Type=X-GNOME-Metatheme
+GtkTheme=Nokto-Eta-remix
+MetacityTheme=Adapta
+IconTheme=Lila_HD_Blue
+CursorTheme=Lila_HD-cursor
+CursorSize=24
+ButtonLayout=:close

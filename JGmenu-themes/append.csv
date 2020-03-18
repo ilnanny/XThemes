@@ -1,0 +1,4 @@
+^sep()
+Esci,openbox --exit,system-log-out
+Riavvia,xterm -e shutdown -r now,system-restart
+Spegni,xterm -e shutdown -h now,system-shutdown

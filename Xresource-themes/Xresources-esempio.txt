@@ -1,0 +1,98 @@
+! =  Author    : Cristian Pozzessere   = ilnanny =
+! =  D.A.Page  : http://ilnanny.deviantart.com   =
+! =  Github    : https://github.com/ilnanny      =
+! ------------------------------------------------
+!   Tema dei colori XTerm : Dark Pastel
+! ------------------------------------------------
+!
+*.foreground:  #ffffff
+*.background:  #1A1818
+*.cursorColor: #bbbbbb
+!
+! Black / Nero
+*.color0:      #000000
+*.color8:      #555555
+!
+! Red / Rosso
+*.color1:      #ff5555
+*.color9:      #ff5555
+!
+! Green / Verde
+*.color2:      #55ff55
+*.color10:     #55ff55
+!
+! Yellow / Giallo
+*.color3:      #ffff55
+*.color11:     #ffff55
+!
+! Blue / Blu
+*.color4:      #5555ff
+*.color12:     #5555ff
+!
+! Magenta
+*.color5:      #ff55ff
+*.color13:     #ff55ff
+!
+! Cyan / Ciano
+*.color6:      #55ffff
+*.color14:     #55ffff
+!
+! White / Bianco
+*.color7:      #bbbbbb
+*.color15:     #ffffff
+!
+! Bold, Italic, Underline / Grassetto Corsivo Sottolineato
+*.colorBD:     #ff5e7d
+!*.colorIT:
+!*.colorUL:
+!
+!   Ricarica la configurazione con :
+!   xrdb $HOME/.Xresources
+!   Copia in X la configurazione
+!   xrdb -merge .x_settings
+
+! --------------------------------------
+!   XTerm Geometria  e Aspetto
+! --------------------------------------
+XTerm*termName: xterm-256color
+XTerm*cursorColor: white
+XTerm*VT100.geometry: 80x24
+!
+!   Cerca font mono con:
+!   fc-match mono
+!   Aumenta la grandezza del font che di default è 6x13 punti
+!
+XTerm.vt100.faceName: Liberation Mono:size=13:antialias=false
+!
+!   Grandezza Medium di default ;vale anche per aterm,uxterm.
+!
+xterm*font: -*-fixed-medium-r-*-*-18-*-*-*-*-*-iso8859-*
+XTerm*dynamicColors: true
+XTerm*utf8: 2
+XTerm*eightBitInput: true
+XTerm*saveLines: 10000
+XTerm*scrollKey: true
+XTerm*scrollTtyOutput: false
+XTerm*scrollBar: false
+XTerm*rightScrollBar: false
+XTerm*jumpScroll: true
+XTerm*multiScroll: true
+XTerm*toolBar: false
+!
+!   Ricarica la configurazione con :
+!   xrdb $HOME/.Xresources
+!
+! -------------------------------------------------------------
+!   Rofi Aspetto
+! -------------------------------------------------------------
+rofi.font: Monospace 12
+rofi.color-enabled: true
+rofi.color-window: #535353, #535353, #535353
+rofi.color-normal: #535353, #C5CAD6, #535353, #8892C2, #535353
+rofi.separator-style: solid
+!
+!
+! -------------------------------------------------------------
+! Cursor
+! -------------------------------------------------------------
+Xcursor.theme: Lila_HD-cursor

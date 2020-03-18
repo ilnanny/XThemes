@@ -1,0 +1,95 @@
+# Autumn Openbox theme
+# @2018 Cristian Pozzessere < ilnanny >
+
+!! menu background
+menu.items.bg: flat
+menu.items.bg.color: #806C5A
+menu.overlap.x: -8
+
+!! menu text
+menu.items.text.color: #E6E6E6
+menu.items.justify: left
+menu.items.disabled.text.color: #EBEBEB
+
+!! menu separator
+menu.separator.padding.height: 2
+menu.separator.color: #806C5A
+
+!! menu border
+menu.border.width: 6
+menu.border.color: #806C5A
+
+!! menu headers
+menu.title.bg: flat
+menu.title.bg.color: #806C5A
+menu.title.text.color: #ffffff
+menu.title.text.justify: center
+
+!! selected menu item
+menu.items.active.bg: flat
+menu.items.active.bg.color: #B4C03E
+menu.items.active.text.color: #ffffff
+
+!! titlebar
+window.active.title.bg: flat
+window.active.title.bg.color: #806C5A
+window.inactive.title.bg: flat
+window.inactive.title.bg.color: #806C5A
+
+!! titlebar text
+window.label.text.justify: center
+window.active.label.bg: parentrelative
+window.active.label.text.color: #ffffff
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #806C5A
+
+!! window buttons
+window.*.button.*.bg: parentrelative
+window.active.button.*.hover.bg: flat
+window.inactive.button.*.hover.bg: parentrelative
+window.*.button.*.pressed.bg: flat
+
+window.active.button.*.hover.bg.color: #806C5A
+window.active.button.*.hover.image.color: #B4C03E
+window.active.button.*.pressed.bg.color: #806C5A
+
+window.active.button.*.image.color: #ffffff
+window.active.button.disabled.image.color: #EBEBEB
+window.inactive.button.*.image.color: #e0b3ac
+window.inactive.button.disabled.image.color: #e0b3ac
+
+!! borders
+window.active.border.color: #806C5A
+window.inactive.border.color: #806C5A
+padding.width: 8
+padding.height: 8
+window.client.padding.width: 0
+window.client.padding.height: 0
+border.width: 0
+window.handle.width: 0
+
+window.active.client.color:  #806C5A
+window.inactive.client.color:  #806C5A
+
+window.active.handle.bg: flat
+window.active.handle.bg.color: #806C5A
+window.inactive.handle.bg: flat
+window.inactive.handle.bg.color: #806C5A
+
+window.active.grip.bg: flat
+window.active.grip.bg.color: #806C5A
+window.inactive.grip.bg: flat
+window.inactive.grip.bg.color: #806C5A
+
+!! on-screen displays
+osd.border.width: 1
+osd.border.color: #806C5A
+osd.label.text.color: #E6E6E6
+osd.bg: flat solid
+osd.bg.color: #806C5A
+osd.label.bg: flat solid
+osd.label.bg.color: #806C5A
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #B4C03E
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #EBEBEB

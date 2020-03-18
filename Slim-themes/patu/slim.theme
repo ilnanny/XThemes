@@ -1,0 +1,37 @@
+# Patu theme for SLiM
+# by Cristian Pozzessere < @2019 ilnanny >
+
+# Messages (ie: shutdown)
+msg_color               #FFFFFF
+msg_font                Verdana:size=18:bold:dpi=96
+msg_x                   50%
+msg_y                   40%
+msg_shadow_color #702342
+msg_shadow_xoffset 1
+msg_shadow_yoffset 1
+
+# valid values: stretch, tile
+background_style        stretch
+background_color        #DDEAEE
+
+# Input controls
+input_panel_x           30%
+input_panel_y           66%
+input_name_x            5
+input_name_y            48
+input_font          	Verdana:size=12:dpi=96
+input_color             #000000
+
+# Username / password request
+username_font          	Verdana:size=16:bold:dpi=96
+username_color        	#ffffff
+username_x              0
+username_y              20
+password_x              0
+password_y              20
+username_shadow_color   #656B95
+username_shadow_xoffset 1
+username_shadow_yoffset 1
+
+username_msg            Username:
+password_msg            Password:

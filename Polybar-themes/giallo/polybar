@@ -1,0 +1,321 @@
+;==Colors   __________________====
+
+[colors]
+yellow = #f7d629
+orange = #ff9400
+blue = #3b92ef
+darkyellow = #be9c07
+black = #000000
+white = #ffffff
+grey = #5d5d5d
+
+;==Top Bar   __________________===
+
+[bar/top]
+
+monitor = DVI-I-2
+width = 100%
+height = 24
+fixed-center = true
+override-redirect = true
+wm-restack = i3
+
+background = ${colors.darkyellow}
+foreground = ${colors.orange}
+border-top-size = 10
+border-bottom-size = 10
+border-color =  ${colors.darkyellow}
+
+padding-left = 5
+padding-right = 5
+
+font-0 = "Roboto:size=11:weight=bold;2"
+font-1 = "Material Icons:size=4;"
+font-2 = Iosevka Nerd Font:style=Medium:size=16;3
+
+modules-left = left1 xwindow left
+modules-right = right4 ssd hdd right3 memory cpu temperature right2 eth right1 hour date rightend
+
+;==Bottom Bar   __________________
+
+[bar/bottom]
+
+monitor = DVI-I-2
+width = 100%
+height = 24
+fixed-center = true
+override-redirect = true
+wm-restack = i3
+bottom = true
+modules-center = left1 i3 left
+modules-left = left1 player-cmus left
+
+background = ${colors.darkyellow}
+foreground = ${colors.orange}
+border-top-size = 10
+border-bottom-size = 10
+border-color =  ${colors.darkyellow}
+
+padding-left = 5
+padding-right = 5
+
+font-0 = "Roboto:size=11:weight=bold;2"
+font-1 = "Material Icons:size=4;"
+font-2 = Iosevka Nerd Font:style=Medium:size=16;3
+
+;==Separators   __________________==
+
+[module/left]
+
+type = custom/text
+content = ""
+content-background = ${colors.darkyellow}
+content-foreground = ${colors.yellow}
+
+[module/left1]
+
+type = custom/text
+content = ""
+content-background = ${colors.darkyellow}
+content-foreground = ${colors.yellow}
+
+[module/bleft]
+
+type = custom/text
+content = ""
+content-background = ${colors.darkyellow}
+content-foreground = ${colors.white}
+
+[module/bleft1]
+
+type = custom/text
+content = ""
+content-background = ${colors.darkyellow}
+content-foreground = ${colors.white}
+
+[module/rightend]
+
+type = custom/text
+content = ""
+content-background = ${colors.darkyellow}
+content-foreground = ${colors.white}
+
+
+[module/right1]
+
+type = custom/text
+content = ""
+content-background = ${colors.orange}
+content-foreground = ${colors.white}
+
+
+[module/right2]
+
+type = custom/text
+content = ""
+content-background = ${colors.blue}
+content-foreground = ${colors.orange}
+
+
+[module/right3]
+
+type = custom/text
+content = ""
+content-background = ${colors.yellow}
+content-foreground = ${colors.blue}
+
+
+[module/right4]
+
+type = custom/text
+content = ""
+content-background = ${colors.darkyellow}
+content-foreground = ${colors.yellow}
+
+
+;==Modules   __________________=
+
+[module/player-cmus]
+type = custom/script
+exec = ~/.config/polybar/player-cmus.sh
+interval = 5
+click-left = cmus-remote -n
+click-right = cmus-remote -r
+click-middle = cmus-remote -u
+format-background = ${colors.yellow}
+format-foreground = ${colors.black}
+
+
+[module/xwindow]
+type = internal/xwindow
+label = "  %title:0:60:...%  "
+format-background = ${colors.yellow}
+format-foreground = ${colors.black}
+
+
+[module/ssd]
+type = internal/fs
+interval = 25
+mount-0 = /
+format-mounted-prefix = "  / "
+format-mounted-prefix-foreground = ${colors.black}
+format-mounted-prefix-background = ${colors.yellow}
+format-unmounted-prefix = ${self.format-mounted-prefix}
+format-unmounted-prefix-foreground = ${self.format-mounted-prefix-foreground}
+format-unmounted-prefix-background = ${self.format-mounted-prefix-background}
+
+label-mounted = "%free%  "
+label-unmounted = "%mountpoint% not mounted  "
+label-unmounted-foreground = ${self.label-mounted-foreground}
+label-unmounted-background = ${self.label-mounted-background}
+label-mounted-background = ${colors.yellow}
+label-mounted-foreground = ${colors.black}
+#format-background = ${colors.grey}
+
+
+[module/hdd]
+type = internal/fs
+interval = 25
+mount-0 = /home
+format-mounted-prefix = " ~ "
+format-mounted-prefix-foreground = ${colors.black}
+format-mounted-prefix-background = ${colors.yellow}
+format-unmounted-prefix = ${self.format-mounted-prefix}
+format-unmounted-prefix-foreground = ${self.format-mounted-prefix-foreground}
+format-unmounted-prefix-background = ${colors.grey}
+
+label-mounted = "%free%  "
+label-unmounted = "%mountpoint% not mounted  "
+label-unmounted-foreground = ${colors.orange}
+label-unmounted-background = ${colors.grey}
+label-mounted-background = ${colors.yellow}
+label-mounted-foreground = ${colors.black}
+format-mounted-underline = #55aa55
+format-unmounted-underline = #aa5555
+
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+wrapping-scroll = false
+enable-scoll = false
+enable-click = true
+
+; focused = Active workspace on focused monitor
+label-focused-background = ${colors.darkyellow}
+label-focused-foreground = ${colors.black}
+label-focused-padding = 5
+
+; unfocused = Inactive workspace on any monitor
+label-unfocused-background = ${colors.yellow}
+label-unfocused-foreground = ${colors.black}
+label-unfocused-padding = 5
+
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format = <label>
+format-prefix = "  "
+format-prefix-foreground = ${colors.black}
+format-underline = #0a6cf5
+format-background = ${colors.blue}
+format-foreground = ${colors.black}
+label = "%percentage:2%%  "
+
+
+[module/memory]
+type = internal/memory
+interval = 2
+format = <label>
+format-prefix = "  "
+format-prefix-foreground = ${colors.black}
+format-underline = #0a6cf5
+label = "%percentage_used%%  "
+format-background = ${colors.blue}
+format-foreground = ${colors.black}
+
+
+[module/eth]
+type = internal/network
+interface = wlp0s20u2
+interval = 3.0
+
+format-connected-underline = #55aa55
+format-connected-prefix = "  "
+format-connected-prefix-foreground = ${colors.black}
+format-connected-prefix-background = ${colors.orange}
+label-connected = " %local_ip%  "
+label-connected-foreground = ${colors.black}
+label-connected-background = ${colors.orange}
+
+
+[module/hour]
+type = internal/date
+interval = 1
+format-prefix = "  "
+format-prefix-foreground = ${colors.black}
+format-underline = #0a6cf5
+date = %H:%M
+format = <label>
+format-background = ${colors.white}
+format-foreground = ${colors.black}
+label = "%date%  "
+
+
+[module/date]
+type = internal/date
+interval = 1
+format-prefix = "  "
+format-prefix-foreground = ${colors.black}
+format-underline = #0a6cf5
+date = %d.%m.%Y%
+format = <label>
+format-background = ${colors.white}
+format-foreground = ${colors.black}
+label = "%date%  "
+
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 80
+format-prefix = "  "
+format-prefix-foreground = ${colors.black}
+format = <label>
+format-underline = #f50a4d
+#format-warn = <ramp> <label-warn>
+#format-warn-underline = ${self.format-underline}
+format-background = ${colors.blue}
+label-foreground = ${colors.black}
+label ="%temperature-c%  "
+#label-warn = "%temperature-c%  "
+#label-warn-foreground = ${colors.secondary}
+#ramp-0 = "   "
+#ramp-1 = "   "
+#ramp-2 = "   "
+#ramp-3 = "   "
+#ramp-foreground = ${colors.orange}
+#hwmon-path=/sys/devices/pci0000:00/0000:00:18.3/hwmon/hwmon0/temp1_input
+
+;   __________________
+
+[settings]
+
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+
+;   __________________
+
+[global/wm]
+
+margin-top = 50
+margin-bottom = 50
+
+;vim:ft=dosini
+
+;   __________________

@@ -1,0 +1,13 @@
+
+
+rm  ~/.conkyrc
+
+ln -s ~/.conky/conkycon ~/.conkyrc
+ln -s ~/.conky/conkycon_dark ~/.conkyrc
+ln -s ~/.conky/conkycon_brown ~/.conkyrc
+ln -s ~/.conky/4cpu ~/.conkyrc
+ln -s ~/.conky/8cpu ~/.conkyrc
+ln -s ~/.conky/12cpu ~/.conkyrc
+
+killall conky && conky &
+

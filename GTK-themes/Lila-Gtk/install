@@ -1,0 +1,30 @@
+________________Lila HD GTK Theme____________________
+
+
+For your User:
+
+cp -r Lila-Gtk ~/.theme
+
+(if you dont have folder ,create it: mkdir ~/theme )
+________________________
+________________________
+
+For all User:
+
+su
+
+cp -r Lila-Gtk /usr/share/themes/
+____________________________________________
+*Remove downloaded folder:
+
+
+ rm -rf Lila-Gtk
+
+_____________________________________________
+**Enjoy**
+_____________________________________________
+
+by ilnanny (cristianpozzessere-at-gmail-dot-com)
+_____________________________________________
+
+

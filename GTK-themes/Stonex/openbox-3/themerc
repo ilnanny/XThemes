@@ -1,0 +1,117 @@
+!! StoneX openbox theme
+!! @2017  ilnanny < ilnannyhack at gmail dot com >
+!! GPLV2 +-
+!! Dimensions
+
+border.width:			        2
+border.color:				    #91A8DA
+
+padding.width:				    6
+window.handle.width:			2
+window.client.padding.width:	0
+window.client.padding.height:	0
+
+menu.overlap:				    0
+
+!!---------------------------------------------------------------------------
+!! Fonts
+
+window.active.label.text.font:	shadow=y
+window.label.text.justify:		left
+
+menu.title.text.font:			shadow=y
+menu.title.text.justify:		center
+
+menu.items.font:
+
+!!---------------------------------------------------------------------------
+!! Menu Settings
+
+menu.title.bg:				    flat solid
+menu.title.bg.color:			#5E6879
+menu.title.bg.colorTo:			#5E6879
+menu.title.text.color:			white
+
+menu.items.bg:				    flat solid
+menu.items.bg.color:			#5E6879
+menu.items.text.color:			#B6BDCF
+
+menu.items.active.bg:			flat solid
+menu.items.active.bg.color:		#868D9E
+menu.items.active.text.color:	#bfc0d0
+
+menu.items.disabled.text.color:	#8c8c75
+
+!!---------------------------------------------------------------------------
+!! Window Settings
+
+window.active.padding.width:	    10
+window.active.title.bg:			    flat solid
+window.active.title.bg.color:	    #5E6879
+
+window.active.label.bg:			    flat solid
+window.active.label.bg.color:	    #5E6879
+window.active.label.bg.colorTo:	    #5E6879
+window.active.label.text.color:	    #bfc0d0
+
+window.active.handle.bg:		    flat solid
+window.active.handle.bg.color:	    #5E6879
+window.active.handle.bg.colorTo:    #5E6879
+
+window.active.grip.bg:			    flat solid
+window.active.grip.bg.color:	    #5E6879
+
+window.active.client.color:         #5E6879
+window.inactive.client.color:       #5E6879
+
+window.inactive.title.bg:		    flat solid
+window.inactive.title.bg.color:	    #5E6879
+
+window.inactive.label.bg:		    parentrelative
+window.inactive.label.text.color:	#B6BDCF
+
+window.inactive.handle.bg:		    flat solid
+window.inactive.handle.bg.color:	#5E6879
+
+window.inactive.grip.bg:		    flat solid
+window.inactive.grip.bg.color:		#5E6879
+
+!!---------------------------------------------------------------------------
+!! Button Settings
+
+window.active.button.unpressed.bg:			    flat solid
+window.active.button.unpressed.bg.color:	    #5E6879
+window.active.button.unpressed.bg.colorTo:	    #5E6879
+window.active.button.unpressed.image.color:	    #bfc0d0
+
+window.active.button.pressed.bg:			    flat solid
+window.active.button.pressed.bg.color:		    #5E6879
+window.active.button.pressed.bg.colorTo:	    #5E6879
+
+window.active.button.hover.bg:			        flat solid
+window.active.button.hover.bg.color:		    #5E6879
+
+window.active.button.disabled.bg:			    parentrelative
+window.active.button.disabled.image.color:	    #B6BDCF
+
+window.inactive.button.unpressed.bg:			parentrelative
+window.inactive.button.unpressed.image.color:	#B6BDCF
+
+window.inactive.button.hover.bg:			    flat solid
+window.inactive.button.hover.bg.color:			#5E6879
+window.inactive.button.pressed.bg:			    flat solid
+window.inactive.button.pressed.bg.color:		#5E6879
+window.inactive.button.pressed.bg.colorTo:		#5E6879
+
+window.inactive.button.disabled.bg:			    parentrelative
+window.inactive.button.disabled.image.color:	#B6BDCF
+
+!!--------------------------------------------------------------------------
+!! On Screen Display
+
+osd.border.width: 1
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #5E6879
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #B6BDCF
+

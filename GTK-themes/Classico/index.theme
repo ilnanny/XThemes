@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Classico
+Comment=A Classic color for modern design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Classico
+MetacityTheme=Classico
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24
