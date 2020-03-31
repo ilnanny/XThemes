@@ -1,6 +1,4 @@
 # darksome theme for SLIM
-# by aditya shakya <adi1090x@gmail.com>
-# using artwork from some free html+css login templates on the internet
 
 # Messages (ie: shutdown)
 
@@ -32,5 +30,5 @@ input_pass_y            254
 input_font              Sans:size=16:dpi=75
 input_color           #d31973
 
-username_msg            
-password_msg            
+username_msg
+password_msg
