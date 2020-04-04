@@ -13,19 +13,20 @@ set -o errexit
 
 echo " Copio i themi gtk nella cartella /usr/share/themes"
 
-cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Celedark /usr/share/themes/
-cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Classico /usr/share/themes/
-cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Crynge /usr/share/themes/
-cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Grigio /usr/share/themes/
-cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Larry-Dark /usr/share/themes/
-cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Larrycow /usr/share/themes/
-cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Lila-Gtk /usr/share/themes/
-#cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Mybrown /usr/share/themes/
-cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Newclear /usr/share/themes/
-#cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Nocciola /usr/share/themes/
-#cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Stonex /usr/share/themes/
-#cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Teiera /usr/share/themes/
-cp -a -r /media/Dati/Git/linux-themes/GTK-themes/Nokto-Eta-remix/ /usr/share/themes/
+cp -a -r  ../GTK-themes/Noktomix /usr/share/themes/
+cp -a -r  ../GTK-themes/Celedark /usr/share/themes/
+cp -a -r  ../GTK-themes/Classico /usr/share/themes/
+cp -a -r  ../GTK-themes/Crynge /usr/share/themes/
+cp -a -r  ../GTK-themes/Grigio /usr/share/themes/
+cp -a -r  ../GTK-themes/Larry-Dark /usr/share/themes/
+cp -a -r  ../GTK-themes/Larrycow /usr/share/themes/
+cp -a -r  ../GTK-themes/Lila-Gtk /usr/share/themes/
+cp -a -r  ../GTK-themes/Mybrown /usr/share/themes/
+cp -a -r  ../GTK-themes/Newclear /usr/share/themes/
+cp -a -r  ../GTK-themes/Nocciola /usr/share/themes/
+cp -a -r  ../GTK-themes/Stonex /usr/share/themes/
+cp -a -r  ../GTK-themes/Teiera /usr/share/themes/
+sleep 2
 echo " Temi copiati ,puoi chiudere il terminale "
 
 exit 0
