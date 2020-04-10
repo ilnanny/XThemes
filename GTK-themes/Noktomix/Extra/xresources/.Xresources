@@ -4,10 +4,10 @@
 ! =  D.A.Page  : http://ilnanny.deviantart.com   =
 ! =  Github    : https://github.com/ilnanny      =
 ! ------------------------------------------------
-!   Colorscheme XTerm : Nokto
+!   Colorscheme : Noktomix
 ! ------------------------------------------------
 ! Setup
-*.foreground: #CDD4C7
+*.foreground: #BCC7CC
 *.background: #263238
 *.cursorColor: #BBBBBB
 !
@@ -40,8 +40,8 @@
 *.color14:     #A5D5D5
 !
 ! White
-*.color7:      #F3F0E7
-*.color15:     #F3F3F3
+*.color7:      #E1E9ED
+*.color15:     #E4E9EB
 !
 ! Bold, Italic, Underline
 *.colorBD:     #DF5C6B
@@ -62,9 +62,9 @@ XTerm*VT100.geometry: 80x24
 !  fc-match mono
 !  Default size font 6x13 points
 !
-XTerm.vt100.faceName: "DejaVu Sans Mono" "Book":size=11:antialias=true
+XTerm.vt100.faceName: "Liberation Mono" "Regular":size=10:antialias=true
 !
-!  Medium size  default ;xterm,aterm,uxterm.
+!  Medium size set default ;xterm,aterm,uxterm.
 !
 xterm*font: -*-fixed-medium-r-*-*-18-*-*-*-*-*-iso8859-*
 XTerm*dynamicColors: true
@@ -116,6 +116,7 @@ URxvt.copyCommand: xclip -i -selection clipboard
 URxvt.pasteCommand: xclip -o -selection clipboard
 URxvt.keysym.m-c: perl:clipboard:copy
 URxvt.keysym.m-v: perl:clipboard:paste
+! SEt xdg-open or exo-open
 URxvt.urlLauncher: exo-open
 URxvt.underlineURLs: true
 URxvt.urlButton: 1
