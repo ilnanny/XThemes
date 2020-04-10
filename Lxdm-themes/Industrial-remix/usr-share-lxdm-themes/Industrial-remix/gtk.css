@@ -9,16 +9,16 @@
 
 #time {
 	font: Sans 12;
-	color: #ffffff;
+	color: #E0E7EC;
 }
 
 #prompt {
 	font: Sans 14;
-	color: #000000;
+	color: #13191C;
 }
 
 #bottom_pane label,
 #bottom_pane GtkLabel {
 	font: Sans 12;
-	color: #9E9D9B;
+	color: #B0BDC2;
 }

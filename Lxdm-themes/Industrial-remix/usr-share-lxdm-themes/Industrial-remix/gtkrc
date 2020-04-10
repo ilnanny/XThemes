@@ -30,7 +30,7 @@ style "prompt"
 style "bottom"
 {
 	font_name="Sans 12"
-	fg[NORMAL] = "#9E9D9B"
+	fg[NORMAL] = "#B8C8CE"
 	engine "pixmap"
 	{
 		image
