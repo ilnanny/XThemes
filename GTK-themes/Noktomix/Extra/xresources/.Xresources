@@ -12,36 +12,36 @@
 *.cursorColor: #BBBBBB
 !
 ! Black
-*.color0:      #073642
-*.color8:      #002B36
+*.color0:      #263238
+*.color8:      #263238
 !
 ! Red
-*.color1:      #D1615F
-*.color9:      #CB4B16
+*.color1:      #B75757
+*.color9:      #B14C51
 !
 ! Green
-*.color2:      #859900
-*.color10:     #75A297
+*.color2:      #949E4E
+*.color10:     #829E4E
 !
 ! Yellow
-*.color3:      #B58900
-*.color11:     #D7D48E
+*.color3:      #B69C4B
+*.color11:     #CFC360
 !
 ! Blue
-*.color4:      #7EB1D5
-*.color12:     #96B7C8
+*.color4:      #6A97B7
+*.color12:     #7895C0
 !
 ! Magenta
-*.color5:      #D33682
-*.color13:     #C46CA1
+*.color5:      #AF4F7E
+*.color13:     #BA5F8C
 !
 ! Cyan
-*.color6:      #7ECDCD
-*.color14:     #A5D5D5
+*.color6:      #5DA49F
+*.color14:     #70B0AF
 !
 ! White
-*.color7:      #E1E9ED
-*.color15:     #E4E9EB
+*.color7:      #CDDCE1
+*.color15:     #C8DADB
 !
 ! Bold, Italic, Underline
 *.colorBD:     #DF5C6B
