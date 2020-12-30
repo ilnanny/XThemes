@@ -31,6 +31,6 @@ cp -a -r ../Industrial-remix/usr-share-lxdm/config.ui /usr/share/lxdm/config.ui
 
 cp -a -r ../Industrial-remix/usr-share-lxdm-themes/Industrial-remix  /usr/share/lxdm/themes/
 
-ech " Theme Successfully installed !"
+echo " Theme Successfully installed !"
 sleep 2
 exit 0
