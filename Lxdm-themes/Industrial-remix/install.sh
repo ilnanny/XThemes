@@ -5,7 +5,7 @@
 #   D.A.Page  : http://ilnanny.deviantart.com   =
 #   Github    : https://github.com/ilnanny      =
 #================================================
-#_______________________  Colori ansi
+#_______________________  Ansi colors
 cyan="\033[0;36m"
 red="\033[0;31m"
 blue="\033[1;34m"
@@ -14,12 +14,12 @@ yellow="\033[1;33m"
 nc="\033[0m"
 clear
 #
-#______________________  Imposta superuser
+#______________________  Setting superuser
 set -o errexit
 [[ $(whoami) == 'root' ]] || exec sudo su -c $0 root
 #______________________________________________________
-#  Creo una copia di backup dei files originali e
-#  copio il tema dalla cartella selezionata.
+#  Making a backup copy of the original files and
+#  copying the theme in the selected folder
 
 mv /etc/lxdm/lxdm.conf  /etc/lxdm/lxdm.conf.bk
 
@@ -31,9 +31,6 @@ cp -a -r ../Industrial-remix/usr-share-lxdm/config.ui /usr/share/lxdm/config.ui
 
 cp -a -r ../Industrial-remix/usr-share-lxdm-themes/Industrial-remix  /usr/share/lxdm/themes/
 
-echo " Tema installato con Successo !"
+echo " Theme Successfully installed !"
 sleep 2
 exit 0
-
-
-
