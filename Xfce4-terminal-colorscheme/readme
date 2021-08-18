@@ -1,0 +1,7 @@
+place .theme file inside:
+
+    /usr/share/xfce4/terminal/colorschemes 
+
+or
+
+    ~/.local/share/xfce4/terminal/colorschemes 
