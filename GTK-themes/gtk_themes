@@ -26,6 +26,9 @@ cp -a -r  ../GTK-themes/Newclear /usr/share/themes/
 cp -a -r  ../GTK-themes/Nocciola /usr/share/themes/
 cp -a -r  ../GTK-themes/Stonex /usr/share/themes/
 cp -a -r  ../GTK-themes/Teiera /usr/share/themes/
+cp -a -r  ../GTK-themes/Nordic-bluish-accent-standard-buttons /usr/share/themes/
+cp -a -r  ../GTK-themes/Nordic-Polar-standard-buttons /usr/share/themes/
+cp -a -r  ../GTK-themes/Nordic-standard-buttons /usr/share/themes/
 sleep 2
 echo " Temi copiati ,puoi chiudere il terminale "
 
